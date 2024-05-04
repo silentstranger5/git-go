@@ -58,3 +58,12 @@ alias mygit=/path/to/your/repo/your_git.sh
 mkdir -p /tmp/testing && cd /tmp/testing
 mygit init
 ```
+
+# Addendum
+This repository contains a complete implementation of [Git](https://en.wikipedia.org/wiki/Git) in Golang. It is written using [Codecrafters](https://codecrafters.io/) tutorial. It implements all core features: work with blobs, trees, and commits. Source files are located at `cmd/mygit`.
+
+| File Name | File Description |
+|-----------|------------------|
+| file.go   | Implements work with file blobs. See [Object storage](https://en.wikipedia.org/wiki/Object_storage) |
+| main.go   | Implements git directory initialization and CLI processing |
+| tree.go   | Implements work with tree objects and commits. |
