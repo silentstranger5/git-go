@@ -67,3 +67,5 @@ This repository contains a complete implementation of [Git](https://en.wikipedia
 | file.go   | Implements work with file blobs. See [Object storage](https://en.wikipedia.org/wiki/Object_storage) |
 | main.go   | Implements git directory initialization and CLI processing |
 | tree.go   | Implements work with tree objects and commits. |
+
+UPDATE: New clone function added. That was pretty tough but fun. Code for clone is located at `cmd/mygit/clone.go`.
